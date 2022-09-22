@@ -6,6 +6,7 @@ sys.path.append(currentPath + windows_extension + 'backend')
 sys.path.append(currentPath + mac_extension + 'backend')
 print(sys.path) # Use this to check if your path is correctly processed
 
+import index
 from config import app
 
 if __name__ == '__main__':app.run(host="localhost", port=3000)
